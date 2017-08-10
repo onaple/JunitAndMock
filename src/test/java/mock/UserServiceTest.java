@@ -1,15 +1,12 @@
 package mock;
 
-import com.sun.xml.internal.ws.developer.StreamingAttachment;
 import org.junit.Test;
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
 
-import javax.annotation.Resource;
+import java.sql.SQLException;
 
 import static org.mockito.Mockito.*;
-
-import java.sql.SQLException;
 
 public class UserServiceTest {
 
@@ -102,10 +99,6 @@ public class UserServiceTest {
         user.setId(1L);
         user.setName("Vikey");
         userService.createNewUser(user);
-    }
-    @Test
-    public void testbyte(){
-
     }
 
 }
