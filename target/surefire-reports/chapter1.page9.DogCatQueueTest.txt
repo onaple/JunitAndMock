@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: chapter1.page9.DogCatQueueTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in chapter1.page9.DogCatQueueTest
