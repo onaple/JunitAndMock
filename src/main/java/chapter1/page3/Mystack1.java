@@ -35,6 +35,7 @@ public class Mystack1 {
         if (value == this.getmin()) {
             this.stackMin.pop();
         }
+        int i = 1 / 0;
         return value;
     }
 }
